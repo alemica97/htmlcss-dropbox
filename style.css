@@ -27,7 +27,7 @@ ul, ol{
 }
 
 .container-medium{
-    max-width: 800px;
+    max-width: 950px;
 }
 
 .container-small{
@@ -38,7 +38,7 @@ ul, ol{
     margin: 0 auto;
 }
 
-.row.landscape-row{
+.col.landscape-col{
     width: 100%;
 }
 
@@ -59,7 +59,7 @@ header .col li{
     padding: 5px 20px;
 }
 
-header .container-large .landscape-row{
+header .container-large .row{
     padding: 10px;
 }
 
@@ -75,7 +75,73 @@ header .container-large .landscape-row{
     float: right;
 }
 
+#blue-bkc{
+    background-color: #B4D0E7;
+}
 
+section .container-medium .first-section-up-row{
+    padding-top: 60px;
+}
+
+section .container-medium .first-section-bottom-row{
+    padding-top: 30px;
+}
+
+.col.title-wrapper > h1{
+    font-size: 62px;
+    font-weight: 800;
+}
+
+.col.first-section-left-col{
+    width: calc((1 / 3) * 100%);
+}
+
+.col.first-section-right-col{
+    width: calc((2 / 3) * 100%);
+}
+
+
+.first-section-right-col{
+    float: right;
+}
+
+.first-section-left-col .button-wrapper{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.button-wrapper > span{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.icon-wrapper .fa-arrow-down{
+    font-size: 40px;
+}
+
+.first-section-left-col .paragraph-wrapper{
+    width: 95%;
+    font-size: 15px;
+}
+
+section{
+    position: relative;
+}
+
+.bottom-white-band{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+section#blue-bkc{
+    z-index: -2;
+}
                 /* DEBUG */
 
 .debug .container-large{
@@ -91,5 +157,9 @@ header .container-large .landscape-row{
 }
 
 .debug .row{
-    border: 1px solid yellow;
+    border: 2px solid yellow;
+}
+
+.debug .col{
+    border: 2px solid purple;
 }
