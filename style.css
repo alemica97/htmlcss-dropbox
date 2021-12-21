@@ -54,6 +54,28 @@ ul, ol{
     padding: 5px 18px;
 }
 
+header .col li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+header .container-large .landscape-row{
+    padding: 10px;
+}
+
+.col.left-col-wrapper, .col.right-col-wrapper{
+    width: 50%;
+}
+
+.col{
+    float: left;
+}
+
+.right-col-wrapper{
+    float: right;
+}
+
+
                 /* DEBUG */
 
 .debug .container-large{
