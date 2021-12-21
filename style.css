@@ -15,6 +15,7 @@ img{
 a{
     text-decoration: none;
     color: currentColor;
+    display: inline-block;
 }
 
 ul, ol{
@@ -39,6 +40,18 @@ ul, ol{
 
 .row.landscape-row{
     width: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blue-button{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 18px;
 }
 
                 /* DEBUG */
