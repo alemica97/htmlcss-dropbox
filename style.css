@@ -34,6 +34,7 @@ ul, ol{
 
 .container-small{
     max-width: 970px;
+    width: 95%;
 }
 
 .container-large, .container-medium, .container-small{
@@ -150,7 +151,7 @@ section#blue-bkc{
 }
 
 .container-small .plan-title-row{
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .container-small .row h2{
@@ -167,7 +168,7 @@ section#blue-bkc{
     border: 1px solid #bbb;
 }
 
-.plan-central-col .plan-user{
+.plan-user{
     text-align: center;
     border-bottom: 1px solid #bbb;
     padding: 10px 10px;
@@ -225,7 +226,7 @@ section#blue-bkc{
     text-decoration: underline;
 }
 
-.plan-card-wrapper .plan-button::after{
+.plan-central-col .plan-card-wrapper .plan-button::after{
     content: "";
     display: block;
     width: 40px;
@@ -234,8 +235,42 @@ section#blue-bkc{
     margin: 30px 0;
 }
 
+.plan-footer h4{
+    font-weight: 700;
+}
+
 .plan-footer li i{
     color: #0061FF;
+}
+
+.plan-bottom-col .enterprice-left{
+    width: 70%;
+}
+
+.plan-bottom-col .enterprice-right{
+    width: 30%;
+}
+
+.enterprice-solutions{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.card{
+    border: 1px solid #bbb;
+}
+
+.plan-central-col{
+    padding: 0 20px;
+}
+
+.plan-bottom-col{
+    padding: 30px 20px;
+}
+
+.row.central-plan-row{
+    margin: -20px;
 }
                 /* DEBUG */
 
@@ -258,3 +293,8 @@ section#blue-bkc{
 .debug .col{
     border: 2px solid purple;
 }
+
+.debug .module{
+    border: 2px solid red;
+}
+
