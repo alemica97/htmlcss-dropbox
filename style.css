@@ -156,6 +156,86 @@ section#blue-bkc{
 .container-small .row h2{
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.plan-central-col{
+    width: calc(100% / 3);
+}
+
+.row .plan-central-col .plan-card{
+    border: 1px solid #bbb;
+}
+
+.plan-central-col .plan-user{
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding: 10px 10px;
+    font-weight: 500;
+}
+
+.row .plan-card-wrapper{
+    padding: 20px;
+}
+
+.plan-type .price{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.plan-type .type{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.plan-type .payment-frequency{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.plan-list , .plan-footer ul{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.plan-list li, .plan-footer li{
+    padding-bottom: 20px;
+}
+
+.plan-list li:last-child{
+    padding-bottom: 0;
+}
+
+.plan-card-wrapper .plan-button{
+    font-size: 14px;
+}
+
+.plan-card-wrapper .plan-button a:first-child{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-button .shop-now{
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+.plan-card-wrapper .plan-button::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: #bbb;
+    margin: 30px 0;
+}
+
+.plan-footer li i{
+    color: #0061FF;
 }
                 /* DEBUG */
 
