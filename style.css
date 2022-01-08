@@ -57,6 +57,13 @@ ul, ol{
     padding: 5px 18px;
 }
 
+.white-button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 18px;
+}
+
 header .col li{
     display: inline-block;
     padding: 5px 20px;
@@ -271,6 +278,26 @@ section#blue-bkc{
 
 .row.central-plan-row{
     margin: -20px;
+}
+
+.partner-section .partner-left{
+    width: 55%;
+}
+
+.partner-section .partner-right{
+    width: 45%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.partner-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.partner-paragraph, .partner-button{
+    font-weight: 550;
+    margin-bottom: 20px;
 }
                 /* DEBUG */
 
