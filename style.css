@@ -299,6 +299,26 @@ section#blue-bkc{
     font-weight: 550;
     margin-bottom: 20px;
 }
+
+.operations-section .row .col{
+    width: calc(100% / 3);
+    padding-right: 20px;
+}
+
+.operations-section .col .operations-img{
+    padding: 10px;
+}
+
+.operations-section .col .operations-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.operations-section .col .operations-paragraph{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
                 /* DEBUG */
 
 .debug .container-large{
